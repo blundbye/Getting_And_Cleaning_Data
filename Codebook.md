@@ -1,7 +1,7 @@
 Codebook
 ========
 This codebook describes the variables in the tab-delimited text file TidyData.txt. 
-The dataset is produced running the script file `run_analysis.R`
+The dataset is produced running the R-script file `run_analysis.R`
 
 Variables and descriptions
 ------------------------------
@@ -13,8 +13,8 @@ Activity           | Activity performed when the corresponding measurements were
 Domain             | Time or frequency of domain signal (Time or Frequency)
 Instrument         | Measuring instrument (Accelerometer or Gyroscope)
 Acceleration       | Acceleration signal (Body or Gravity (if any))
-JerkFlag           | Jerk signal (yes or no)
-MagnitudeFlag      | Magnitude of the signals calculated using the Euclidean norm (yes or no)
+JerkFlag           | Jerk signal (Yes or No)
+MagnitudeFlag      | Magnitude of the signals calculated using the Euclidean norm (Yes or No)
 MeasureType        | Type of measure (Mean or Standard Deviation)
 AxialDirection     | Direction of 3-axial signals (X, Y, or Z (if any))
 AverageValue       | Average of each measure for each activity and each subject
@@ -48,7 +48,7 @@ Summary of variables
 --------------------
 
 ```{r}
-summary(dtTidy)
+summary(TidyData)
 ```
 
 ```
