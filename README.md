@@ -5,10 +5,10 @@ The repository consists of the following files:
 
 * README.md - This file
 * Codebook.md - Description of the output produced by the R script `run_analysis.R`
-* run_analysis.R - The R script (see below) 
+* run_analysis.R - The R-script (see below) 
 * Tidy.Data.txt - The tidy dataset (tab-delimited text file)
 
-The R script, `run_analysis.R`, does the following:
+The R-script, `run_analysis.R`, does the following:
 
 1. Downloads and unzips the dataset  
 2. Loads both the training and test datasets, keeping only those columns which
