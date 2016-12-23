@@ -6,7 +6,7 @@ The repository consists of the following files:
 * README.md - This file
 * Codebook.md - Description of the output produced by the R script `run_analysis.R`
 * run_analysis.R - The R-script (see below) 
-* Tidy.Data.txt - The tidy dataset (tab-delimited text file)
+* TidyData.txt - The tidy dataset (tab-delimited text file)
 
 The R-script, `run_analysis.R`, does the following:
 
@@ -18,5 +18,5 @@ The R-script, `run_analysis.R`, does the following:
 4. Merges training and test datasets
 5. Loads activity and feature info
 6. Converts all relevant features into factor columns
-7. Creates a tidy dataset, `Tidy.Data.txt` that consists of the average (mean) value 
+7. Creates a tidy dataset, `TidyData.txt` that consists of the average (mean) value 
    of each variable for each subject, activity and type of feature
